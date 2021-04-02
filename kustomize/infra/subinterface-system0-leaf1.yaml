@@ -1,16 +1,15 @@
 apiVersion: srlinux.henderiw.be/v1alpha1
 kind: K8sSrlNokiaInterfacesInterfaceSubinterface
 metadata:
-  name: subinterface-paco-e1-49-leaf2
+  name: subinterface-paco-system0-leaf1
   labels:
-    target: leaf2
+    target: leaf1
 spec:
-  interface-name: ethernet-1/49
+  interface-name: system0
   subinterface:
   - index: 0
-    type: routed
     admin-state: enable
-    description: "paco-e1-49-0-leaf2"
+    description: "paco-system0-0-leaf1"
     ipv4:
       address: 
-      - ip-prefix: 100.64.0.1/31
+      - ip-prefix: 100.112.100.1/32
