@@ -1,0 +1,22 @@
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaInterfacesInterface
+metadata:
+  name: interface-paco-infra
+  labels:
+    target: leaf-grp1
+spec:
+  interface:
+  - name: irb0
+    admin-state: enable
+    description: "paco-irb0"
+  - name: system0
+    admin-state: enable
+    description: "paco-system0"
+  - name: lo0
+    admin-state: enable
+    description: "paco-lo0"
+  - name: ethernet-1/49
+    admin-state: enable
+    description: "paco-infra-e1-49"
+    vlan-tagging: false
+
