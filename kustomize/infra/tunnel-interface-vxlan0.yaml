@@ -8,5 +8,5 @@ metadata:
 spec:
   tunnel-interface:
   
-    name: vxlan0
+  - name: vxlan0
   
