@@ -3,7 +3,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - interface-system.yaml
-# - tunnel-interface-vxlan0.yaml
+- tunnel-interface-vxlan0.yaml
 - interface-leaf1.yaml
 # - subinterface-e1-49-leaf1.yaml
 # - subinterface-system0-leaf1.yaml
