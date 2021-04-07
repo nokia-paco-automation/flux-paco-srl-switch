@@ -1,0 +1,17 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaInterfacesInterface
+metadata:
+  name: interface-paco-leaf2
+  labels:
+    target: leaf2
+spec:
+  interface:
+
+  - name: ethernet-1/49
+    admin-state: enable
+    description: "paco-ethernet-1/49"
+
+    vlan-tagging: false
+
+
