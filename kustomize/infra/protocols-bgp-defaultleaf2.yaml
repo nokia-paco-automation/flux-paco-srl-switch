@@ -9,8 +9,8 @@ spec:
   network-instance-name: default
   bgp:
     admin-state: enable
-    autonomous-system: 65001
-    router-id: 100.112.100.0
+    autonomous-system: 65002
+    router-id: 100.112.100.1
     ebgp-default-policy:
       import-reject-all: true
       export-reject-all: true
@@ -50,12 +50,12 @@ spec:
     neighbor:
     
     - peer-address: 100.64.0.40
-      peer-as: 65002
+      peer-as: 65001
       peer-group: underlay
       
       
     
-    - peer-address: 100.112.100.1
+    - peer-address: 100.112.100.0
       peer-as: 65002
       peer-group: overlay
       
@@ -64,6 +64,6 @@ spec:
       
       
       transport:
-        local-address: 100.112.100.0
+        local-address: 100.112.100.1
       
     
