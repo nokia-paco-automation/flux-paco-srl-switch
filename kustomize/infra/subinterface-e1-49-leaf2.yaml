@@ -4,7 +4,7 @@ kind: K8sSrlNokiaInterfacesInterfaceSubinterface
 metadata:
   name: subinterface-paco-e1-49-leaf2
   labels:
-  target: leaf2
+    target: leaf2
 spec:
   interface-name: ethernet-1/49
   

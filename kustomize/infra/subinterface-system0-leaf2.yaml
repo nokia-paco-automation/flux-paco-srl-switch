@@ -4,7 +4,7 @@ kind: K8sSrlNokiaInterfacesInterfaceSubinterface
 metadata:
   name: subinterface-paco-system0-leaf2
   labels:
-  target: leaf2
+    target: leaf2
 spec:
   interface-name: system0
   

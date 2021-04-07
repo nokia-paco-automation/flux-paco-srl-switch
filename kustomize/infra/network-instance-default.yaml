@@ -4,7 +4,7 @@ kind: K8sSrlNokiaNetworkInstanceNetworkInstance
 metadata:
   name: network-instance-paco-default
   labels:
-  target: leaf-grp1
+    target: leaf-grp1
 spec:
   network-instance:
   - name: default
