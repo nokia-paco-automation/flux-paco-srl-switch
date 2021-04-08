@@ -48,6 +48,6 @@ spec:
       peer-as: 65002
       peer-group: overlay
       local-as:
-        as-number: 65002
+      - as-number: 65002
       transport:
         local-address: 100.112.100.0
