@@ -2,9 +2,9 @@
 apiVersion: srlinux.henderiw.be/v1alpha1
 kind: K8sSrlNokiaNetworkInstanceNetworkInstance
 metadata:
-  name: network-instance-paco-default
+  name: network-instance-paco-default-leaf1
   labels:
-    target: leaf-grp1
+    target: leaf1
 spec:
   network-instance:
   - name: default
@@ -12,10 +12,5 @@ spec:
     admin-state: enable
     description: paco-default
     interface:
-
-    - name: ethernet-1/49.0
-
     - name: system0.0
-
-
-
+    - name: ethernet-1/49.0

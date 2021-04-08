@@ -14,27 +14,20 @@ spec:
     ebgp-default-policy:
       import-reject-all: true
       export-reject-all: true
-    group: 
-    
+    group:
     - group-name: underlay
+      export-policy: export-underlay-local
       admin-state: enable
       next-hop-self: true
-      
       ipv4-unicast:
         admin-state: enable
-      
       ipv6-unicast:
         admin-state: enable
-      
-    
     - group-name: overlay
       admin-state: enable
       next-hop-self: true
-      
       evpn:
         admin-state: enable
-      
-    
     ipv4-unicast:
       admin-state: enable
       multipath:
@@ -48,22 +41,13 @@ spec:
         max-paths-level-1: 64
         max-paths-level-2: 64
     neighbor:
-    
-    - peer-address: 100.64.0.40
+    - peer-address: 100.64.0.0
       peer-as: 65001
       peer-group: underlay
-      
-      
-    
     - peer-address: 100.112.100.0
       peer-as: 65002
       peer-group: overlay
-      
-      # local-as:
-      #   as-number: 65002
-      
-      
-      # transport:
-      #   local-address: 100.112.100.1
-      
-    
+      local-as:
+        as-number: 65002
+      transport:
+        local-address: 100.112.100.1

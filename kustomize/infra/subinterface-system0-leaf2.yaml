@@ -7,19 +7,13 @@ metadata:
     target: leaf2
 spec:
   interface-name: system0
-  
   subinterface:
-  
   - index: 0
-  
     admin-state: enable
     description: "paco-system0-0-leaf2"
-  
     ipv4:
       address: 
       - ip-prefix: 100.112.100.1/32
     ipv6:
       address: 
       - ip-prefix: 3100:100::1/128
-  
-  

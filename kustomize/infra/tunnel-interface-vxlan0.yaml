@@ -7,6 +7,4 @@ metadata:
     target: leaf-grp1
 spec:
   tunnel-interface:
-  
   - name: vxlan0
-  

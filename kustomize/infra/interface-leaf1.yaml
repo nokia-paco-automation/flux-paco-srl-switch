@@ -7,11 +7,8 @@ metadata:
     target: leaf1
 spec:
   interface:
-
   - name: ethernet-1/49
     admin-state: enable
     description: "paco-ethernet-1/49"
-
     vlan-tagging: false
-
 

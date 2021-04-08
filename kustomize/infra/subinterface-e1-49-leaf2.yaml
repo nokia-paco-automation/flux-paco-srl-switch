@@ -7,21 +7,14 @@ metadata:
     target: leaf2
 spec:
   interface-name: ethernet-1/49
-  
   subinterface:
-  
   - index: 0
-  
     type: routed
-  
     admin-state: enable
     description: "paco-e1-49-0-leaf2"
-  
     ipv4:
       address: 
-      - ip-prefix: 100.64.0.41/31
+      - ip-prefix: 100.64.0.1/31
     ipv6:
       address: 
-      - ip-prefix: 3100:64::29/127
-  
-  
+      - ip-prefix: 3100:64::1/127

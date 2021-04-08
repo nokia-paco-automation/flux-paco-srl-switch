@@ -7,22 +7,15 @@ metadata:
     target: leaf-grp1
 spec:
   interface:
-
   - name: system0
     admin-state: enable
     description: "paco-system0"
-
-
 
   - name: lo0
     admin-state: enable
     description: "paco-lo0"
 
-
-
   - name: irb0
     admin-state: enable
     description: "paco-irb0"
-
-
 
