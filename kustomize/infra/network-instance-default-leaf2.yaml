@@ -12,5 +12,5 @@ spec:
     admin-state: enable
     description: paco-default
     interface:
-    - name: system0.0
     - name: ethernet-1/49.0
+    - name: system0.0

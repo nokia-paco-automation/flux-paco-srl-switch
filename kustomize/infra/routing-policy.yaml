@@ -14,7 +14,7 @@ spec:
         mask-length-range: 32..32
     - name: system-v6
       prefix: 
-      - ip-prefix: 100.64.0.0/16
+      - ip-prefix: 3100:64::/48
         mask-length-range: 128..128
     policy:
     - name: export-underlay-local
