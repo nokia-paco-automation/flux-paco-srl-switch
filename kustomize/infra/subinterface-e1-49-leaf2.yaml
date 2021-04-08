@@ -19,9 +19,9 @@ spec:
   
     ipv4:
       address: 
-      - ip-prefix: 100.64.0.40/31
+      - ip-prefix: 100.64.0.41/31
     ipv6:
       address: 
-      - ip-prefix: 3100:64::28/127
+      - ip-prefix: 3100:64::29/127
   
   
