@@ -1,0 +1,48 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaSystemSystemNetworkInstance
+metadata:
+  name: system-network-instance-pacoservers
+  labels:
+    target: leaf-grp1
+spec:
+  network-instance:
+    protocols:
+      bgp-vpn:
+        bgp-instance:
+          id: 1
+      evpn:
+        ethernet-segments:
+          bgp-instance:
+            id: 1
+            ethernet-segment:
+            - esi: 00:12:12:12:12:12:12:00:00:01
+              admin-state: enable
+              interface: lag1
+            - esi: 00:12:12:12:12:12:12:00:00:02
+              admin-state: enable
+              interface: lag2
+            - esi: 00:12:12:12:12:12:12:00:00:03
+              admin-state: enable
+              interface: lag3
+            - esi: 00:12:12:12:12:12:12:00:00:04
+              admin-state: enable
+              interface: lag4
+            - esi: 00:12:12:12:12:12:12:00:00:05
+              admin-state: enable
+              interface: lag5
+            - esi: 00:12:12:12:12:12:12:00:00:06
+              admin-state: enable
+              interface: lag6
+            - esi: 00:12:12:12:12:12:12:00:00:07
+              admin-state: enable
+              interface: lag7
+            - esi: 00:12:12:12:12:12:12:00:00:08
+              admin-state: enable
+              interface: lag8
+            - esi: 00:12:12:12:12:12:12:00:00:09
+              admin-state: enable
+              interface: lag9
+            - esi: 00:12:12:12:12:12:12:00:00:0A
+              admin-state: enable
+              interface: lag10

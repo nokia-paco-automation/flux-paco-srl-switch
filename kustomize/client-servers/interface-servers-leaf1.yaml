@@ -1,0 +1,228 @@
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaInterfacesInterface
+metadata:
+  name: interface-paco-servers-leaf1
+  labels:
+    target: leaf1
+spec:
+  interface:
+  - name: lag1
+    admin-state: enable
+    description: "paco-lag1"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+    lag:
+      lag-type: lacp
+      member-speed: 10G
+      lacp-fallback-mode: static
+      lacp:
+        interval: FAST
+        lacp-mode: ACTIVE
+        admin-key: 1
+        system-id-mac: 00:00:00:00:00:01
+  - name: ethernet-1/1
+    admin-state: enable
+    description: "paco-ethernet-1/1"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+      aggregate-id: lag1
+  - name: lag2
+    admin-state: enable
+    description: "paco-lag2"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+    lag:
+      lag-type: lacp
+      member-speed: 10G
+      lacp-fallback-mode: static
+      lacp:
+        interval: FAST
+        lacp-mode: ACTIVE
+        admin-key: 2
+        system-id-mac: 00:00:00:00:00:02
+  - name: ethernet-1/2
+    admin-state: enable
+    description: "paco-ethernet-1/2"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+      aggregate-id: lag2
+  - name: lag3
+    admin-state: enable
+    description: "paco-lag3"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+    lag:
+      lag-type: lacp
+      member-speed: 10G
+      lacp-fallback-mode: static
+      lacp:
+        interval: FAST
+        lacp-mode: ACTIVE
+        admin-key: 3
+        system-id-mac: 00:00:00:00:00:03
+  - name: ethernet-1/3
+    admin-state: enable
+    description: "paco-ethernet-1/3"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+      aggregate-id: lag3
+  - name: lag4
+    admin-state: enable
+    description: "paco-lag4"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+    lag:
+      lag-type: lacp
+      member-speed: 10G
+      lacp-fallback-mode: static
+      lacp:
+        interval: FAST
+        lacp-mode: ACTIVE
+        admin-key: 4
+        system-id-mac: 00:00:00:00:00:04
+  - name: ethernet-1/4
+    admin-state: enable
+    description: "paco-ethernet-1/4"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+      aggregate-id: lag4
+  - name: lag5
+    admin-state: enable
+    description: "paco-lag5"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+    lag:
+      lag-type: lacp
+      member-speed: 10G
+      lacp-fallback-mode: static
+      lacp:
+        interval: FAST
+        lacp-mode: ACTIVE
+        admin-key: 5
+        system-id-mac: 00:00:00:00:00:05
+  - name: ethernet-1/5
+    admin-state: enable
+    description: "paco-ethernet-1/5"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+      aggregate-id: lag5
+  - name: lag6
+    admin-state: enable
+    description: "paco-lag6"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+    lag:
+      lag-type: lacp
+      member-speed: 10G
+      lacp-fallback-mode: static
+      lacp:
+        interval: FAST
+        lacp-mode: ACTIVE
+        admin-key: 6
+        system-id-mac: 00:00:00:00:00:06
+  - name: ethernet-1/6
+    admin-state: enable
+    description: "paco-ethernet-1/6"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+      aggregate-id: lag6
+  - name: lag7
+    admin-state: enable
+    description: "paco-lag7"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+    lag:
+      lag-type: lacp
+      member-speed: 10G
+      lacp-fallback-mode: static
+      lacp:
+        interval: FAST
+        lacp-mode: ACTIVE
+        admin-key: 7
+        system-id-mac: 00:00:00:00:00:07
+  - name: ethernet-1/7
+    admin-state: enable
+    description: "paco-ethernet-1/7"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+      aggregate-id: lag7
+  - name: lag8
+    admin-state: enable
+    description: "paco-lag8"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+    lag:
+      lag-type: lacp
+      member-speed: 10G
+      lacp-fallback-mode: static
+      lacp:
+        interval: FAST
+        lacp-mode: ACTIVE
+        admin-key: 8
+        system-id-mac: 00:00:00:00:00:08
+  - name: ethernet-1/8
+    admin-state: enable
+    description: "paco-ethernet-1/8"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+      aggregate-id: lag8
+  - name: lag9
+    admin-state: enable
+    description: "paco-lag9"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+    lag:
+      lag-type: lacp
+      member-speed: 10G
+      lacp-fallback-mode: static
+      lacp:
+        interval: FAST
+        lacp-mode: ACTIVE
+        admin-key: 9
+        system-id-mac: 00:00:00:00:00:09
+  - name: ethernet-1/9
+    admin-state: enable
+    description: "paco-ethernet-1/9"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+      aggregate-id: lag9
+  - name: lag10
+    admin-state: enable
+    description: "paco-lag10"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+    lag:
+      lag-type: lacp
+      member-speed: 10G
+      lacp-fallback-mode: static
+      lacp:
+        interval: FAST
+        lacp-mode: ACTIVE
+        admin-key: 10
+        system-id-mac: 00:00:00:00:00:0A
+  - name: ethernet-1/10
+    admin-state: enable
+    description: "paco-ethernet-1/10"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 10G
+      aggregate-id: lag10
