@@ -11,8 +11,6 @@ spec:
     admin-state: enable
     description: "paco-lag1"
     vlan-tagging: true
-    ethernet:
-      port-speed: 10G
     lag:
       lag-type: lacp
       member-speed: 10G
@@ -32,8 +30,6 @@ spec:
     admin-state: enable
     description: "paco-lag2"
     vlan-tagging: true
-    ethernet:
-      port-speed: 10G
     lag:
       lag-type: lacp
       member-speed: 10G
@@ -53,8 +49,6 @@ spec:
     admin-state: enable
     description: "paco-lag3"
     vlan-tagging: true
-    ethernet:
-      port-speed: 10G
     lag:
       lag-type: lacp
       member-speed: 10G
@@ -74,8 +68,6 @@ spec:
     admin-state: enable
     description: "paco-lag4"
     vlan-tagging: true
-    ethernet:
-      port-speed: 10G
     lag:
       lag-type: lacp
       member-speed: 10G
@@ -95,8 +87,6 @@ spec:
     admin-state: enable
     description: "paco-lag5"
     vlan-tagging: true
-    ethernet:
-      port-speed: 10G
     lag:
       lag-type: lacp
       member-speed: 10G
@@ -116,8 +106,6 @@ spec:
     admin-state: enable
     description: "paco-lag6"
     vlan-tagging: true
-    ethernet:
-      port-speed: 10G
     lag:
       lag-type: lacp
       member-speed: 10G
@@ -137,8 +125,6 @@ spec:
     admin-state: enable
     description: "paco-lag7"
     vlan-tagging: true
-    ethernet:
-      port-speed: 10G
     lag:
       lag-type: lacp
       member-speed: 10G
@@ -158,8 +144,6 @@ spec:
     admin-state: enable
     description: "paco-lag8"
     vlan-tagging: true
-    ethernet:
-      port-speed: 10G
     lag:
       lag-type: lacp
       member-speed: 10G
@@ -179,8 +163,6 @@ spec:
     admin-state: enable
     description: "paco-lag9"
     vlan-tagging: true
-    ethernet:
-      port-speed: 10G
     lag:
       lag-type: lacp
       member-speed: 10G
@@ -200,8 +182,6 @@ spec:
     admin-state: enable
     description: "paco-lag10"
     vlan-tagging: true
-    ethernet:
-      port-speed: 10G
     lag:
       lag-type: lacp
       member-speed: 10G
