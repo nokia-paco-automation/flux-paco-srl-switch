@@ -13,4 +13,4 @@ spec:
       admin-state: enable
       ecmp: 8
       evi: 1
-      vxlan-interface: vxlan0.1
+      vxlan-interface: vxlan0.0
