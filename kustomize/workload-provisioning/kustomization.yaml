@@ -13,5 +13,5 @@ resources:
 - network-instance-protocol-bgpvpn0-leaf2.yaml
 - network-instance-protocol-bgpevpn0-leaf1.yaml
 - network-instance-protocol-bgpevpn0-leaf2.yaml
-#- network-instance-protocol-linux0-leaf1.yaml
-#- network-instance-protocol-linux0-leaf2.yaml
+- network-instance-protocol-linux0-leaf1.yaml
+- network-instance-protocol-linux0-leaf2.yaml
