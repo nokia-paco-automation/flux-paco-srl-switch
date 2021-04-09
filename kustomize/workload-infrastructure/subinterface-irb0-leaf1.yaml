@@ -11,7 +11,7 @@ spec:
   subinterface:
   - index: 40
     admin-state: enable
-    description: ""
+    description: "irb0"
     ipv4:
       address:
       - ip-prefix: 100.112.3.254/24
