@@ -13,4 +13,5 @@ spec:
     admin-state: enable
     description: "paco-esi2-0-leaf2"
     vlan:
-      encap: untagged
+      encap: 
+        untagged: {}
