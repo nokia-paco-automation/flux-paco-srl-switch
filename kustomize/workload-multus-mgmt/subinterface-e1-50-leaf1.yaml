@@ -1,0 +1,18 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaInterfacesInterfaceSubinterface
+metadata:
+  name: multus-mgmt-subinterface-e1-50-leaf1
+  labels:
+    target: leaf1
+spec:
+  interface-name: ethernet-1/50
+  subinterface:
+  - index: 105
+    type: routed
+    admin-state: enable
+    description: "paco-e1-50-105-leaf1"
+    vlan:
+      encap:
+        single-tagged:
+          vlan-id: "105"

@@ -1,0 +1,19 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaNetworkInstanceNetworkInstance
+metadata:
+  name: multus-mgmt-105-network-instance-leaf1
+  labels:
+    target: leaf1
+spec:
+  network-instance:
+  - name: multus-mgmtipvrfitfce105
+    type: ip-vrf
+    admin-state: enable
+    description: paco-multus-mgmtipvrfitfce105
+    interface:
+    - name: ethernet-1/50.105
+    - name: irb0.102
+    - name: irb0.101
+    vxlan-interface:
+    - name: vxlan0.105

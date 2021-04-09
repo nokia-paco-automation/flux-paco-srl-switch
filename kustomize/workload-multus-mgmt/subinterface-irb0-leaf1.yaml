@@ -1,0 +1,61 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaInterfacesInterfaceSubinterface
+metadata:
+  name: multus-mgmt-subinterface-irb0-leaf1
+  labels:
+    target: leaf1
+spec:
+  interface-name: irb0
+  
+  subinterface:
+  - index: 102
+    admin-state: enable
+    description: ""
+    ipv4:
+      address:
+      - ip-prefix: 10.1.12.30/27
+      - ip-prefix: 10.1.12.62/27
+      - ip-prefix: 10.1.12.94/27
+      - ip-prefix: 10.1.12.126/27
+      - ip-prefix: 10.1.12.158/27
+      - ip-prefix: 10.1.12.190/27
+      - ip-prefix: 10.1.12.222/27
+      - ip-prefix: 10.1.12.254/27
+      arp:
+        learn-unsolicited: true
+        host-route:
+          populate:
+          - route-type: dynamic
+        evpn:
+          advertise: 
+          - route-type: dynamic
+  - index: 101
+    admin-state: enable
+    description: "irb0"
+    ipv4:
+      address:
+      - ip-prefix: 10.1.11.254/24
+        anycast-gw: true
+      arp:
+        learn-unsolicited: true
+        host-route:
+          populate:
+          - route-type: dynamic
+        evpn:
+          advertise: 
+          - route-type: dynamic
+    anycast-gw:
+      virtual-router-id: 10
+    ipv6:
+      address:
+      - ip-prefix: 2010:100:11::fffe/64
+        anycast-gw: true
+      neighbor-discovery:
+        learn-unsolicited: both
+        host-route:
+          populate:
+          - route-type: dynamic
+        evpn:
+          advertise: 
+          - route-type: dynamic

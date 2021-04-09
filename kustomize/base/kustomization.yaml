@@ -6,8 +6,8 @@ resources:
 - ../client-dcgw-grp1
 - ../workload-provisioning
 - ../workload-infrastructure
-# - ../workload-multus_mgmt
-# - ../workload-multus_internal
-# - ../workload-multus_external
-# - ../workload-multus_sba
-# - ../workload-multus_internet
+- ../workload-multus-mgmt
+# - ../workload-multus-internal
+# - ../workload-multus-external
+# - ../workload-multus-sba
+# - ../workload-multus-internet

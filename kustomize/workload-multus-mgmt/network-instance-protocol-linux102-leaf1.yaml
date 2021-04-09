@@ -1,0 +1,13 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaNetworkInstanceNetworkInstanceProtocolsLinux
+metadata:
+  name: multus-mgmt-102-protocollinux-leaf1
+  labels:
+    target: leaf1
+spec:
+  network-instance-name: multus-mgmtmacvrfsriov1102
+  linux:
+    export-neighbors: true
+    export-routes: true
+    import-routes: true
