@@ -1,0 +1,13 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaNetworkInstanceNetworkInstanceProtocolsLinux
+metadata:
+  name: protocollinux-infrastructuremacvrfitfce40-leaf1
+  labels:
+    target: leaf1
+spec:
+  network-instance-name: infrastructuremacvrfitfce40
+  linux:
+    export-neighbors: true
+    export-routes: true
+    import-routes: true

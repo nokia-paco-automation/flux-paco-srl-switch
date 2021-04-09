@@ -1,0 +1,18 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaNetworkInstanceNetworkInstance
+metadata:
+  name: network-instance-infrastructureipvrfitfce45-leaf1
+  labels:
+    target: leaf1
+spec:
+  network-instance:
+  - name: infrastructureipvrfitfce45
+    type: ip-vrf
+    admin-state: enable
+    description: paco-infrastructureipvrfitfce45
+    interface:
+    - name: ethernet-1/50.45
+    - name: irb0.40
+    vxlan-interface:
+    - name: vxlan0.45

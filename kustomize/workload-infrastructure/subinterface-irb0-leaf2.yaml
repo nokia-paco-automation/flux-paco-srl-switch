@@ -1,0 +1,36 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaInterfacesInterfaceSubinterface
+metadata:
+  name: subinterface-irb0-leaf2
+  labels:
+    target: leaf2
+spec:
+  interface-name: irb0
+  
+  subinterface:
+  - index: 40
+    admin-state: enable
+    description: ""
+    ipv4:
+      address:
+      - ip-prefix: 100.112.3.254/24
+        anycast-gw: true
+      arp:
+        learn-unsolicited: true
+        host-route:
+          populate: dynamic
+        evpn:
+          advertise: dynamic
+    anycast-gw:
+      virtual-router-id: 10
+    ipv6:
+      address:
+      - ip-prefix: 2010:100:3::fffe/64
+        anycast-gw: true
+      arp:
+        learn-unsolicited: true
+        host-route:
+          populate: dynamic
+        evpn:
+          advertise: dynamic

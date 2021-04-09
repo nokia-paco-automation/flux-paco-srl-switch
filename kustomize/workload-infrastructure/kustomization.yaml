@@ -1,0 +1,29 @@
+
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- vxlaninterface-vxlan0.yaml
+- subinterface-lag1-leaf2.yaml
+- subinterface-lag2-leaf2.yaml
+- subinterface-e1-50-leaf2.yaml
+- subinterface-irb0-leaf2.yaml
+- subinterface-lag1-leaf1.yaml
+- subinterface-lag2-leaf1.yaml
+- subinterface-e1-50-leaf1.yaml
+- subinterface-irb0-leaf1.yaml
+# - network-instance-40-leaf2.yaml
+# - network-instance-40-leaf1.yaml
+# - network-instance-45-leaf2.yaml
+# - network-instance-45-leaf1.yaml
+# - network-instance-protocol-bgpvpn40-leaf2.yaml
+# - network-instance-protocol-bgpevpn40-leaf2.yaml
+# - network-instance-protocol-linux40-leaf2.yaml
+# - network-instance-protocol-bgpvpn45-leaf2.yaml
+# - network-instance-protocol-bgpevpn45-leaf2.yaml
+# - network-instance-protocol-linux45-leaf2.yaml
+# - network-instance-protocol-bgpvpn40-leaf1.yaml
+# - network-instance-protocol-bgpevpn40-leaf1.yaml
+# - network-instance-protocol-linux40-leaf1.yaml
+# - network-instance-protocol-bgpvpn45-leaf1.yaml
+# - network-instance-protocol-bgpevpn45-leaf1.yaml
+# - network-instance-protocol-linux45-leaf1.yaml
