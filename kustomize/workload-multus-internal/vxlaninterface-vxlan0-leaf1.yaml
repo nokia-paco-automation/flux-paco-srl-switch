@@ -1,0 +1,28 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaTunnelInterfacesTunnelInterfaceVxlanInterface
+metadata:
+  name: multus-internal-vxlaninterface-vxlan0-leaf1
+  labels:
+    target: leaf1
+spec:
+  tunnel-interface-name: vxlan0
+  vxlan-interface:
+  - index: 201
+    type: bridged
+    ingress:
+      vni: 201
+    egress:
+      source-ip: use-system-ipv4-address
+  - index: 202
+    type: bridged
+    ingress:
+      vni: 202
+    egress:
+      source-ip: use-system-ipv4-address
+  - index: 205
+    type: routed
+    ingress:
+      vni: 205
+    egress:
+      source-ip: use-system-ipv4-address

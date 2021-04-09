@@ -1,0 +1,13 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaNetworkInstanceNetworkInstanceProtocolsLinux
+metadata:
+  name: multus-internal-203-protocollinux-leaf2
+  labels:
+    target: leaf2
+spec:
+  network-instance-name: multus-internalmacvrfsriov2203
+  linux:
+    export-neighbors: true
+    export-routes: true
+    import-routes: true

@@ -7,7 +7,7 @@ resources:
 - ../workload-provisioning
 - ../workload-infrastructure
 - ../workload-multus-mgmt
-# - ../workload-multus-internal
+- ../workload-multus-internal
 # - ../workload-multus-external
 # - ../workload-multus-sba
 # - ../workload-multus-internet
