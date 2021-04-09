@@ -18,3 +18,7 @@ spec:
     ipv6:
       address: 
       - ip-prefix: 2010:100:40::/127
+    vlan:
+      encap:
+        single-tagged:
+          vlan-id: "45"
