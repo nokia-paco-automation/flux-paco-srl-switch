@@ -9,7 +9,7 @@ spec:
   network-instance-name: provisioningMacVrfitfce0
   bgp-vpn:
     bgp-instance:
-      id: 1
+    - id: 1
       route-target:
         export-rt: target:65002:0
         import-rt: target:65002:0

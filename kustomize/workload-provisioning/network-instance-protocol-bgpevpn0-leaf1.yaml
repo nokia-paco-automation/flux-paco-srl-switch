@@ -9,7 +9,7 @@ spec:
   network-instance-name: provisioningMacVrfitfce0
   bgp-evpn:
     bgp-instance:
-      id: 1
+    - id: 1
       admin-state: enable
       ecmp: 8
       evi: 0
