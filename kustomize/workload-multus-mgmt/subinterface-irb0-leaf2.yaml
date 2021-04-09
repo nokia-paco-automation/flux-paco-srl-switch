@@ -7,29 +7,7 @@ metadata:
     target: leaf2
 spec:
   interface-name: irb0
-  
   subinterface:
-  - index: 103
-    admin-state: enable
-    description: ""
-    ipv4:
-      address:
-      - ip-prefix: 10.1.13.30/27
-      - ip-prefix: 10.1.13.62/27
-      - ip-prefix: 10.1.13.94/27
-      - ip-prefix: 10.1.13.126/27
-      - ip-prefix: 10.1.13.158/27
-      - ip-prefix: 10.1.13.190/27
-      - ip-prefix: 10.1.13.222/27
-      - ip-prefix: 10.1.13.254/27
-      arp:
-        learn-unsolicited: true
-        host-route:
-          populate:
-          - route-type: dynamic
-        evpn:
-          advertise: 
-          - route-type: dynamic
   - index: 101
     admin-state: enable
     description: "irb0"
@@ -53,6 +31,27 @@ spec:
         anycast-gw: true
       neighbor-discovery:
         learn-unsolicited: both
+        host-route:
+          populate:
+          - route-type: dynamic
+        evpn:
+          advertise: 
+          - route-type: dynamic
+  - index: 103
+    admin-state: enable
+    description: "irb0"
+    ipv4:
+      address:
+      - ip-prefix: 10.1.13.30/27
+      - ip-prefix: 10.1.13.62/27
+      - ip-prefix: 10.1.13.94/27
+      - ip-prefix: 10.1.13.126/27
+      - ip-prefix: 10.1.13.158/27
+      - ip-prefix: 10.1.13.190/27
+      - ip-prefix: 10.1.13.222/27
+      - ip-prefix: 10.1.13.254/27
+      arp:
+        learn-unsolicited: true
         host-route:
           populate:
           - route-type: dynamic
