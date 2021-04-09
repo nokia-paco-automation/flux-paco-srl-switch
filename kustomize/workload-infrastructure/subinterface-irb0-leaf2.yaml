@@ -30,7 +30,7 @@ spec:
       address:
       - ip-prefix: 2010:100:3::fffe/64
         anycast-gw: true
-      arp:
+      neighbor-discovery:
         learn-unsolicited: true
         host-route:
           populate:
