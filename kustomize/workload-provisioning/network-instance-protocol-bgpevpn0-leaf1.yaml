@@ -10,7 +10,7 @@ spec:
   bgp-evpn:
     bgp-instance:
       id: 1
-	  admin-state: enable
+      admin-state: enable
       ecmp: 8
-	  evi: 0
-	  vxlan-interface: vxlan0.0
+      evi: 0
+      vxlan-interface: vxlan0.0
