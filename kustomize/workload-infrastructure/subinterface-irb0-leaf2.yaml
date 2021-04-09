@@ -19,9 +19,11 @@ spec:
       arp:
         learn-unsolicited: true
         host-route:
-          populate: dynamic
+          populate:
+          - route-type: dynamic
         evpn:
-          advertise: dynamic
+          advertise: 
+          - route-type: dynamic
     anycast-gw:
       virtual-router-id: 10
     ipv6:
@@ -31,6 +33,8 @@ spec:
       arp:
         learn-unsolicited: true
         host-route:
-          populate: dynamic
+          populate:
+          - route-type: dynamic
         evpn:
-          advertise: dynamic
+          advertise: 
+          - route-type: dynamic
