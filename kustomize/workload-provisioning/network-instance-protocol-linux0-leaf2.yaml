@@ -1,0 +1,13 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaNetworkInstanceNetworkInstanceProtocolsLinux
+metadata:
+  name: provisioningmacvrfitfce0
+  labels:
+    target: leaf2
+spec:
+  network-instance-name: provisioningmacvrfitfce0
+  linux:
+    export-neighbors: true
+    export-routes: true
+    import-routes: true
