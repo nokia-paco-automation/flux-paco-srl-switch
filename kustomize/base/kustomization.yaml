@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - ../infra
 - ../client-servers
-# - ../client-dcgw-grp1
+- ../client-dcgw-grp1
 # - ../workload-multus_mgmt
 # - ../workload-multus_internal
 # - ../workload-multus_external

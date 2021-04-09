@@ -1,0 +1,15 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaInterfacesInterface
+metadata:
+  name: interface-paco-dcgw-grp1-leaf2
+  labels:
+    target: leaf2
+spec:
+  interface:
+  - name: ethernet-1/50
+    admin-state: enable
+    description: "paco-ethernet-1/50"
+    vlan-tagging: true
+    ethernet:
+      port-speed: 40G
