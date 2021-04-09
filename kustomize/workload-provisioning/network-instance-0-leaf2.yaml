@@ -1,0 +1,20 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaNetworkInstanceNetworkInstance
+metadata:
+  name: provisioningMacVrfitfce0
+  labels:
+    target: leaf2
+spec:
+  network-instance:
+  - name: provisioningMacVrfitfce0
+    type: mac-vrf
+    admin-state: enable
+    description: paco-provisioningMacVrfitfce0
+    interface:
+    vxlan-interface:
+    - name: vxlan0.0
+    bridge-table:
+      mac-duplication:
+        admin-state: enable
+        action: blackhole

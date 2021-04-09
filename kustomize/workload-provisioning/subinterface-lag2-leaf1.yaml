@@ -1,0 +1,17 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaInterfacesInterfaceSubinterface
+metadata:
+  name: subinterface-paco-lag2-leaf1
+  labels:
+    target: leaf1
+spec:
+  interface-name: lag2
+  subinterface:
+  - index: 0
+    type: bridged
+    admin-state: enable
+    description: "paco-esi2-0-leaf1"
+    vlan:
+      encap:
+        untagged
