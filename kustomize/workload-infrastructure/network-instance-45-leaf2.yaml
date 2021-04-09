@@ -2,7 +2,7 @@
 apiVersion: srlinux.henderiw.be/v1alpha1
 kind: K8sSrlNokiaNetworkInstanceNetworkInstance
 metadata:
-  name: network-instance-infrastructureipvrfitfce45-leaf2
+  name: infrastructure-45-network-instance-leaf2
   labels:
     target: leaf2
 spec:

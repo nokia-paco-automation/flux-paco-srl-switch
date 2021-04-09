@@ -2,7 +2,7 @@
 apiVersion: srlinux.henderiw.be/v1alpha1
 kind: K8sSrlNokiaInterfacesInterfaceSubinterface
 metadata:
-  name: subinterface-e1-50-leaf2
+  name: infrastructure-subinterface-e1-50-leaf2
   labels:
     target: leaf2
 spec:
@@ -12,13 +12,7 @@ spec:
     type: routed
     admin-state: enable
     description: "paco-e1-50-45-leaf2"
-    ipv4:
-      address: 
-      - ip-prefix: 10.100.40.2/31
-    ipv6:
-      address: 
-      - ip-prefix: 2010:100:40::2/127
     vlan:
       encap:
         single-tagged:
-          vlan-id: "40"
+          vlan-id: "45"

@@ -2,7 +2,7 @@
 apiVersion: srlinux.henderiw.be/v1alpha1
 kind: K8sSrlNokiaInterfacesInterfaceSubinterface
 metadata:
-  name: subinterface-irb0-leaf2
+  name: infrastructure-subinterface-irb0-leaf2
   labels:
     target: leaf2
 spec:
@@ -11,7 +11,7 @@ spec:
   subinterface:
   - index: 40
     admin-state: enable
-    description: "irb0.40"
+    description: ""
     ipv4:
       address:
       - ip-prefix: 100.112.3.254/24

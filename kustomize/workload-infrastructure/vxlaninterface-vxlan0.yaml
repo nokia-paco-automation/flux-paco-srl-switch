@@ -2,7 +2,7 @@
 apiVersion: srlinux.henderiw.be/v1alpha1
 kind: K8sSrlNokiaTunnelInterfacesTunnelInterfaceVxlanInterface
 metadata:
-  name: vxlaninterface-vxlan0
+  name: infrastructure-vxlaninterface-vxlan0
   labels:
     target: leaf-grp1
 spec:
