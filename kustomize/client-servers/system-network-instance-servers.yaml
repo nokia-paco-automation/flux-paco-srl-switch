@@ -22,27 +22,3 @@ spec:
             - name: 00:12:12:12:12:12:12:00:00:02
               admin-state: enable
               interface: lag2
-            - name: 00:12:12:12:12:12:12:00:00:03
-              admin-state: enable
-              interface: lag3
-            - name: 00:12:12:12:12:12:12:00:00:04
-              admin-state: enable
-              interface: lag4
-            - name: 00:12:12:12:12:12:12:00:00:05
-              admin-state: enable
-              interface: lag5
-            - name: 00:12:12:12:12:12:12:00:00:06
-              admin-state: enable
-              interface: lag6
-            - name: 00:12:12:12:12:12:12:00:00:07
-              admin-state: enable
-              interface: lag7
-            - name: 00:12:12:12:12:12:12:00:00:08
-              admin-state: enable
-              interface: lag8
-            - name: 00:12:12:12:12:12:12:00:00:09
-              admin-state: enable
-              interface: lag9
-            - name: 00:12:12:12:12:12:12:00:00:0A
-              admin-state: enable
-              interface: lag10
