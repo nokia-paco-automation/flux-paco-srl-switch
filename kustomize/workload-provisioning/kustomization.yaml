@@ -7,8 +7,8 @@ resources:
 - subinterface-lag2-leaf2.yaml
 - subinterface-lag1-leaf1.yaml
 - subinterface-lag2-leaf1.yaml
-#- network-instance-0-leaf2.yaml
-#- network-instance-0-leaf1.yaml
+- network-instance-0-leaf2.yaml
+- network-instance-0-leaf1.yaml
 # - network-instance-protocol-bgpvpn0-leaf1.yaml
 # - network-instance-protocol-bgpevpn0-leaf1.yaml
 #- network-instance-protocol-linux0-leaf1.yaml
