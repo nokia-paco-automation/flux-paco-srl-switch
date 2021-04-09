@@ -15,4 +15,4 @@ spec:
     vlan:
       encap:
         single-tagged:
-          vlan-id: 40
+          vlan-id: "40"

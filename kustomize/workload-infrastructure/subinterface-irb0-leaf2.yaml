@@ -11,7 +11,7 @@ spec:
   subinterface:
   - index: 40
     admin-state: enable
-    description: ""
+    description: "irb0.40"
     ipv4:
       address:
       - ip-prefix: 100.112.3.254/24
@@ -31,7 +31,7 @@ spec:
       - ip-prefix: 2010:100:3::fffe/64
         anycast-gw: true
       neighbor-discovery:
-        learn-unsolicited: true
+        learn-unsolicited: both
         host-route:
           populate:
           - route-type: dynamic
