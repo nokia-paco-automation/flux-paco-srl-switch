@@ -11,5 +11,5 @@ spec:
     bgp-instance:
     - id: 1
       route-target:
-        export-rt: target:65002:0
-        import-rt: target:65002:0
+        export-rt: target:65002:1
+        import-rt: target:65002:1
