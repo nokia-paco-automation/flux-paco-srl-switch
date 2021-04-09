@@ -4,7 +4,7 @@ resources:
 - ../infra
 - ../client-servers
 - ../client-dcgw-grp1
-- ../workload-provisioning
+# - ../workload-provisioning
 # - ../workload-multus_mgmt
 # - ../workload-multus_internal
 # - ../workload-multus_external
