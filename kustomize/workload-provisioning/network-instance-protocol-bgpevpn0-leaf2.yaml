@@ -2,7 +2,7 @@
 apiVersion: srlinux.henderiw.be/v1alpha1
 kind: K8sSrlNokiaNetworkInstanceNetworkInstanceProtocolsBgpevpn
 metadata:
-  name: provisioningMacVrfitfce0
+  name: provisioningMacVrfitfce0leaf2
   labels:
     target: leaf2
 spec:

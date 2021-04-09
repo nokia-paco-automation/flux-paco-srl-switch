@@ -2,7 +2,7 @@
 apiVersion: srlinux.henderiw.be/v1alpha1
 kind: K8sSrlNokiaNetworkInstanceNetworkInstance
 metadata:
-  name: provisioningMacVrfitfce0
+  name: provisioningMacVrfitfce0leaf1
   labels:
     target: leaf1
 spec:
