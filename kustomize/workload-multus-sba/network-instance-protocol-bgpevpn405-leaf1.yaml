@@ -1,0 +1,16 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaNetworkInstanceNetworkInstanceProtocolsBgpevpn
+metadata:
+  name: multus-sba-405-protocolbgpevpn-leaf1
+  labels:
+    target: leaf1
+spec:
+  network-instance-name: multus-sbaipvrfitfce405
+  bgp-evpn:
+    bgp-instance:
+    - id: "1"
+      admin-state: enable
+      ecmp: 8
+      evi: 405
+      vxlan-interface: vxlan0.405

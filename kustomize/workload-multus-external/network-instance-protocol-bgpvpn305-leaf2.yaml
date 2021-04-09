@@ -1,0 +1,15 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaNetworkInstanceNetworkInstanceProtocolsBgpVpn
+metadata:
+  name: multus-external-305-protocolbgpvpn-leaf2
+  labels:
+    target: leaf2
+spec:
+  network-instance-name: multus-externalipvrfitfce305
+  bgp-vpn:
+    bgp-instance:
+    - id: 1
+      route-target:
+        export-rt: target:65002:305
+        import-rt: target:65002:305

@@ -1,0 +1,15 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaNetworkInstanceNetworkInstanceProtocolsBgpVpn
+metadata:
+  name: multus-sba-401-protocolbgpvpn-leaf1
+  labels:
+    target: leaf1
+spec:
+  network-instance-name: multus-sbamacvrfipvlan401
+  bgp-vpn:
+    bgp-instance:
+    - id: 1
+      route-target:
+        export-rt: target:65002:401
+        import-rt: target:65002:401

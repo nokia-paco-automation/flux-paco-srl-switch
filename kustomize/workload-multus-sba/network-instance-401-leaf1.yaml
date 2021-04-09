@@ -1,0 +1,23 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaNetworkInstanceNetworkInstance
+metadata:
+  name: multus-sba-401-network-instance-leaf1
+  labels:
+    target: leaf1
+spec:
+  network-instance:
+  - name: multus-sbamacvrfipvlan401
+    type: mac-vrf
+    admin-state: enable
+    description: paco-multus-sbamacvrfipvlan401
+    interface:
+    - name: lag1.401
+    - name: lag2.401
+    - name: irb0.401
+    vxlan-interface:
+    - name: vxlan0.401
+    bridge-table:
+      mac-duplication:
+        admin-state: enable
+        action: blackhole

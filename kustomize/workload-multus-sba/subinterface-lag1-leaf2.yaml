@@ -1,0 +1,26 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaInterfacesInterfaceSubinterface
+metadata:
+  name: multus-sba-subinterface-lag1-leaf2
+  labels:
+    target: leaf2
+spec:
+  interface-name: lag1
+  subinterface:
+  - index: 401
+    type: bridged
+    admin-state: enable
+    description: "paco-esi1-401-leaf2"
+    vlan:
+      encap:
+        single-tagged:
+          vlan-id: "401"
+  - index: 403
+    type: bridged
+    admin-state: enable
+    description: "paco-esi1-403-leaf2"
+    vlan:
+      encap:
+        single-tagged:
+          vlan-id: "403"

@@ -1,0 +1,19 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaNetworkInstanceNetworkInstance
+metadata:
+  name: multus-sba-405-network-instance-leaf1
+  labels:
+    target: leaf1
+spec:
+  network-instance:
+  - name: multus-sbaipvrfitfce405
+    type: ip-vrf
+    admin-state: enable
+    description: paco-multus-sbaipvrfitfce405
+    interface:
+    - name: ethernet-1/50.405
+    - name: irb0.401
+    - name: irb0.402
+    vxlan-interface:
+    - name: vxlan0.405

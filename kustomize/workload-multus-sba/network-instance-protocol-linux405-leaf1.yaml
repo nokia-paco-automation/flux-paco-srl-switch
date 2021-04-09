@@ -1,0 +1,13 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaNetworkInstanceNetworkInstanceProtocolsLinux
+metadata:
+  name: multus-sba-405-protocollinux-leaf1
+  labels:
+    target: leaf1
+spec:
+  network-instance-name: multus-sbaipvrfitfce405
+  linux:
+    export-neighbors: true
+    export-routes: true
+    import-routes: true
