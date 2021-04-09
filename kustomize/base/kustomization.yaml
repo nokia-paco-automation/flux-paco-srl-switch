@@ -8,6 +8,6 @@ resources:
 - ../workload-infrastructure
 # - ../workload-multus_mgmt
 # - ../workload-multus_internal
-- ../workload-multus_external
+# - ../workload-multus_external
 # - ../workload-multus_sba
 # - ../workload-multus_internet
