@@ -15,15 +15,15 @@ resources:
 - network-instance-40-leaf1.yaml
 - network-instance-45-leaf2.yaml
 - network-instance-45-leaf1.yaml
-# - network-instance-protocol-bgpvpn40-leaf2.yaml
-# - network-instance-protocol-bgpevpn40-leaf2.yaml
-# - network-instance-protocol-linux40-leaf2.yaml
-# - network-instance-protocol-bgpvpn45-leaf2.yaml
-# - network-instance-protocol-bgpevpn45-leaf2.yaml
-# - network-instance-protocol-linux45-leaf2.yaml
-# - network-instance-protocol-bgpvpn40-leaf1.yaml
-# - network-instance-protocol-bgpevpn40-leaf1.yaml
-# - network-instance-protocol-linux40-leaf1.yaml
-# - network-instance-protocol-bgpvpn45-leaf1.yaml
-# - network-instance-protocol-bgpevpn45-leaf1.yaml
-# - network-instance-protocol-linux45-leaf1.yaml
+- network-instance-protocol-bgpvpn40-leaf2.yaml
+- network-instance-protocol-bgpevpn40-leaf2.yaml
+- network-instance-protocol-linux40-leaf2.yaml
+- network-instance-protocol-bgpvpn45-leaf2.yaml
+- network-instance-protocol-bgpevpn45-leaf2.yaml
+- network-instance-protocol-linux45-leaf2.yaml
+- network-instance-protocol-bgpvpn40-leaf1.yaml
+- network-instance-protocol-bgpevpn40-leaf1.yaml
+- network-instance-protocol-linux40-leaf1.yaml
+- network-instance-protocol-bgpvpn45-leaf1.yaml
+- network-instance-protocol-bgpevpn45-leaf1.yaml
+- network-instance-protocol-linux45-leaf1.yaml
