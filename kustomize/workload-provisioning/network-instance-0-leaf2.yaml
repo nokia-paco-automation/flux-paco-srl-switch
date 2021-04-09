@@ -15,7 +15,7 @@ spec:
     - name: lag1.0
     - name: lag2.0
     vxlan-interface:
-    - name: vxlan0.1
+    - name: vxlan0.0
     bridge-table:
       mac-duplication:
         admin-state: enable
