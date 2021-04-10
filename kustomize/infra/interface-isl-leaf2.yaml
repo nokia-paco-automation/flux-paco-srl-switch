@@ -10,4 +10,3 @@ spec:
   - name: ethernet-1/49
     admin-state: enable
     description: "paco-ethernet-1/49"
-    vlan-tagging: true
