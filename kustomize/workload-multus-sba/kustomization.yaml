@@ -7,10 +7,6 @@ resources:
 - subinterface-lag1-leaf2.yaml
 - subinterface-lag2-leaf2.yaml
 - subinterface-irb0-leaf2.yaml
-- network-instance-405-leaf2.yaml
-- network-instance-protocol-bgpvpn405-leaf2.yaml
-- network-instance-protocol-bgpevpn405-leaf2.yaml
-- network-instance-protocol-linux405-leaf2.yaml
 - network-instance-403-leaf2.yaml
 - network-instance-protocol-bgpvpn403-leaf2.yaml
 - network-instance-protocol-bgpevpn403-leaf2.yaml
@@ -19,10 +15,14 @@ resources:
 - network-instance-protocol-bgpvpn401-leaf2.yaml
 - network-instance-protocol-bgpevpn401-leaf2.yaml
 - network-instance-protocol-linux401-leaf2.yaml
+- network-instance-405-leaf2.yaml
+- network-instance-protocol-bgpvpn405-leaf2.yaml
+- network-instance-protocol-bgpevpn405-leaf2.yaml
+- network-instance-protocol-linux405-leaf2.yaml
 - vxlaninterface-vxlan0-leaf1.yaml
-- subinterface-e1-50-leaf1.yaml
 - subinterface-lag1-leaf1.yaml
 - subinterface-lag2-leaf1.yaml
+- subinterface-e1-50-leaf1.yaml
 - subinterface-irb0-leaf1.yaml
 - network-instance-401-leaf1.yaml
 - network-instance-protocol-bgpvpn401-leaf1.yaml

@@ -13,7 +13,7 @@ spec:
     description: paco-multus-ipvrf-itfce-305
     interface:
     - name: ethernet-1/50.305
-    - name: irb0.301
     - name: irb0.303
+    - name: irb0.301
     vxlan-interface:
     - name: vxlan0.305

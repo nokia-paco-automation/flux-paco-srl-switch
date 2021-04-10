@@ -8,14 +8,6 @@ metadata:
 spec:
   interface-name: lag2
   subinterface:
-  - index: 301
-    type: bridged
-    admin-state: enable
-    description: "paco-esi2-301-leaf2"
-    vlan:
-      encap:
-        single-tagged:
-          vlan-id: "301"
   - index: 303
     type: bridged
     admin-state: enable
@@ -24,3 +16,11 @@ spec:
       encap:
         single-tagged:
           vlan-id: "303"
+  - index: 301
+    type: bridged
+    admin-state: enable
+    description: "paco-esi2-301-leaf2"
+    vlan:
+      encap:
+        single-tagged:
+          vlan-id: "301"
