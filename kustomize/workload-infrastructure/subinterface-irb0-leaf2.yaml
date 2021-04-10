@@ -7,7 +7,6 @@ metadata:
     target: leaf2
 spec:
   interface-name: irb0
-  
   subinterface:
   - index: 40
     admin-state: enable

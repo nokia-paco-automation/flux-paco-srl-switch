@@ -2,7 +2,7 @@
 apiVersion: srlinux.henderiw.be/v1alpha1
 kind: K8sSrlNokiaInterfacesInterface
 metadata:
-  name: interface-paco-servers-leaf1
+  name: cg-servers-interface-leaf1
   labels:
     target: leaf1
 spec:

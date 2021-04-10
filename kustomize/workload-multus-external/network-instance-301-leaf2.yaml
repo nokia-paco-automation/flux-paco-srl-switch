@@ -7,10 +7,10 @@ metadata:
     target: leaf2
 spec:
   network-instance:
-  - name: multus-externalmacvrfipvlan301
+  - name: multus-macvrf-ipvlan-301
     type: mac-vrf
     admin-state: enable
-    description: paco-multus-externalmacvrfipvlan301
+    description: paco-multus-macvrf-ipvlan-301
     interface:
     - name: lag1.301
     - name: lag2.301

@@ -6,7 +6,7 @@ metadata:
   labels:
     target: leaf2
 spec:
-  network-instance-name: infrastructuremacvrfitfce40
+  network-instance-name: infrastructure-macvrf-itfce-40
   bgp-vpn:
     bgp-instance:
     - id: 1

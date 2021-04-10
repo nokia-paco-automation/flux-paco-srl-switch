@@ -6,7 +6,7 @@ metadata:
   labels:
     target: leaf1
 spec:
-  network-instance-name: multus-internalmacvrfsriov1202
+  network-instance-name: multus-macvrf-sriov-202
   linux:
     export-neighbors: true
     export-routes: true

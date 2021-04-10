@@ -2,15 +2,15 @@
 apiVersion: srlinux.henderiw.be/v1alpha1
 kind: K8sSrlNokiaNetworkInstanceNetworkInstance
 metadata:
-  name: provisioningmacvrfitfce0leaf1
+  name: provisioning-1-network-instance-leaf1
   labels:
     target: leaf1
 spec:
   network-instance:
-  - name: provisioningmacvrfitfce0
+  - name: provisioning-macvrf-itfce-0
     type: mac-vrf
     admin-state: enable
-    description: paco-provisioningmacvrfitfce0
+    description: paco-provisioning-macvrf-itfce-0
     interface:
     - name: lag1.0
     - name: lag2.0

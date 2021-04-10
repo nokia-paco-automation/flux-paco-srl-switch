@@ -7,10 +7,10 @@ metadata:
     target: leaf2
 spec:
   network-instance:
-  - name: infrastructureipvrfitfce45
+  - name: infrastructure-ipvrf-itfce-45
     type: ip-vrf
     admin-state: enable
-    description: paco-infrastructureipvrfitfce45
+    description: paco-infrastructure-ipvrf-itfce-45
     interface:
     - name: ethernet-1/50.45
     - name: irb0.40

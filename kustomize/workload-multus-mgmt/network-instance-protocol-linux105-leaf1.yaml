@@ -6,7 +6,7 @@ metadata:
   labels:
     target: leaf1
 spec:
-  network-instance-name: multus-mgmtipvrfitfce105
+  network-instance-name: multus-ipvrf-itfce-105
   linux:
     export-neighbors: true
     export-routes: true

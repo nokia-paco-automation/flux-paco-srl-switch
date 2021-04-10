@@ -2,7 +2,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- vxlaninterface-vxlan0.yaml
+- vxlaninterface-vxlan0-leaf1.yaml
 - subinterface-lag1-leaf1.yaml
 - subinterface-lag2-leaf1.yaml
 - subinterface-e1-50-leaf1.yaml
@@ -15,6 +15,7 @@ resources:
 - network-instance-protocol-bgpvpn45-leaf1.yaml
 - network-instance-protocol-bgpevpn45-leaf1.yaml
 - network-instance-protocol-linux45-leaf1.yaml
+- vxlaninterface-vxlan0-leaf2.yaml
 - subinterface-lag1-leaf2.yaml
 - subinterface-lag2-leaf2.yaml
 - subinterface-e1-50-leaf2.yaml

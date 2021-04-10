@@ -6,7 +6,7 @@ metadata:
   labels:
     target: leaf2
 spec:
-  network-instance-name: infrastructureipvrfitfce45
+  network-instance-name: infrastructure-ipvrf-itfce-45
   linux:
     export-neighbors: true
     export-routes: true

@@ -7,10 +7,10 @@ metadata:
     target: leaf1
 spec:
   network-instance:
-  - name: multus-internetmacvrfsriov1502
+  - name: multus-macvrf-sriov-502
     type: mac-vrf
     admin-state: enable
-    description: paco-multus-internetmacvrfsriov1502
+    description: paco-multus-macvrf-sriov-502
     interface:
     - name: lag1.502
     - name: lag2.502

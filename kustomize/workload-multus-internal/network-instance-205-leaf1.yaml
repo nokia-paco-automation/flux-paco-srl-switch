@@ -7,10 +7,10 @@ metadata:
     target: leaf1
 spec:
   network-instance:
-  - name: multus-internalipvrfitfce205
+  - name: multus-ipvrf-itfce-205
     type: ip-vrf
     admin-state: enable
-    description: paco-multus-internalipvrfitfce205
+    description: paco-multus-ipvrf-itfce-205
     interface:
     - name: ethernet-1/50.205
     - name: irb0.201

@@ -7,10 +7,10 @@ metadata:
     target: leaf1
 spec:
   network-instance:
-  - name: multus-mgmtmacvrfipvlan101
+  - name: multus-macvrf-ipvlan-101
     type: mac-vrf
     admin-state: enable
-    description: paco-multus-mgmtmacvrfipvlan101
+    description: paco-multus-macvrf-ipvlan-101
     interface:
     - name: lag1.101
     - name: lag2.101

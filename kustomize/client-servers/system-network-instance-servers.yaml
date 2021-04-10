@@ -2,7 +2,7 @@
 apiVersion: srlinux.henderiw.be/v1alpha1
 kind: K8sSrlNokiaSystemSystemNetworkInstance
 metadata:
-  name: system-network-instance-pacoservers
+  name: cg-servers-system-network-instance-leaf-grp1
   labels:
     target: leaf-grp1
 spec:

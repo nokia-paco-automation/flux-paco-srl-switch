@@ -7,10 +7,10 @@ metadata:
     target: leaf2
 spec:
   network-instance:
-  - name: multus-internalmacvrfsriov2203
+  - name: multus-macvrf-sriov-203
     type: mac-vrf
     admin-state: enable
-    description: paco-multus-internalmacvrfsriov2203
+    description: paco-multus-macvrf-sriov-203
     interface:
     - name: lag1.203
     - name: lag2.203

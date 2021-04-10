@@ -6,7 +6,7 @@ metadata:
   labels:
     target: leaf1
 spec:
-  network-instance-name: multus-internalmacvrfsriov1202
+  network-instance-name: multus-macvrf-sriov-202
   bgp-evpn:
     bgp-instance:
     - id: "1"

@@ -6,7 +6,7 @@ metadata:
   labels:
     target: leaf2
 spec:
-  network-instance-name: multus-externalmacvrfipvlan301
+  network-instance-name: multus-macvrf-ipvlan-301
   linux:
     export-neighbors: true
     export-routes: true

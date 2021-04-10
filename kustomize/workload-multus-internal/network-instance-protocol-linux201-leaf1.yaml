@@ -6,7 +6,7 @@ metadata:
   labels:
     target: leaf1
 spec:
-  network-instance-name: multus-internalmacvrfipvlan201
+  network-instance-name: multus-macvrf-ipvlan-201
   linux:
     export-neighbors: true
     export-routes: true

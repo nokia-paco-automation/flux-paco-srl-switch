@@ -2,7 +2,7 @@
 apiVersion: srlinux.henderiw.be/v1alpha1
 kind: K8sSrlNokiaInterfacesInterface
 metadata:
-  name: interface-paco-system
+  name: infra-interface-system0
   labels:
     target: leaf-grp1
 spec:
@@ -10,12 +10,9 @@ spec:
   - name: system0
     admin-state: enable
     description: "paco-system0"
-
   - name: lo0
     admin-state: enable
     description: "paco-lo0"
-
   - name: irb0
     admin-state: enable
     description: "paco-irb0"
-

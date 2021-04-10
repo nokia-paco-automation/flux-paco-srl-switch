@@ -2,15 +2,21 @@
 apiVersion: srlinux.henderiw.be/v1alpha1
 kind: K8sSrlNokiaTunnelInterfacesTunnelInterfaceVxlanInterface
 metadata:
-  name: vxlaninterface-paco-vxlan0
+  name: infrastructure-vxlaninterface-vxlan0-leaf1
   labels:
-    target: leaf-grp1
+    target: leaf1
 spec:
   tunnel-interface-name: vxlan0
   vxlan-interface:
-  - index: 0
+  - index: 40
     type: bridged
     ingress:
-      vni: 1
+      vni: 40
+    egress:
+      source-ip: use-system-ipv4-address
+  - index: 45
+    type: routed
+    ingress:
+      vni: 45
     egress:
       source-ip: use-system-ipv4-address

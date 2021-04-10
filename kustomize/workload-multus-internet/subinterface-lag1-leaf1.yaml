@@ -8,14 +8,6 @@ metadata:
 spec:
   interface-name: lag1
   subinterface:
-  - index: 502
-    type: bridged
-    admin-state: enable
-    description: "paco-esi1-502-leaf1"
-    vlan:
-      encap:
-        single-tagged:
-          vlan-id: "502"
   - index: 501
     type: bridged
     admin-state: enable
@@ -24,3 +16,11 @@ spec:
       encap:
         single-tagged:
           vlan-id: "501"
+  - index: 502
+    type: bridged
+    admin-state: enable
+    description: "paco-esi1-502-leaf1"
+    vlan:
+      encap:
+        single-tagged:
+          vlan-id: "502"

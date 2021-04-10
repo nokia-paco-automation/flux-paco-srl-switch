@@ -8,10 +8,10 @@ metadata:
 spec:
   tunnel-interface-name: vxlan0
   vxlan-interface:
-  - index: 401
-    type: bridged
+  - index: 405
+    type: routed
     ingress:
-      vni: 401
+      vni: 405
     egress:
       source-ip: use-system-ipv4-address
   - index: 403
@@ -20,9 +20,9 @@ spec:
       vni: 403
     egress:
       source-ip: use-system-ipv4-address
-  - index: 405
-    type: routed
+  - index: 401
+    type: bridged
     ingress:
-      vni: 405
+      vni: 401
     egress:
       source-ip: use-system-ipv4-address

@@ -1,13 +1,14 @@
+
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - ../infra
 # - ../client-servers
 # - ../client-dcgw-grp1
-# - ../workload-provisioning
-# - ../workload-infrastructure
 # - ../workload-multus-mgmt
 # - ../workload-multus-internal
 # - ../workload-multus-external
 # - ../workload-multus-sba
 # - ../workload-multus-internet
+# - ../workload-provisioning
+# - ../workload-infrastructure

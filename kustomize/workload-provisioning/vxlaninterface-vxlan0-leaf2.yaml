@@ -1,0 +1,16 @@
+
+apiVersion: srlinux.henderiw.be/v1alpha1
+kind: K8sSrlNokiaTunnelInterfacesTunnelInterfaceVxlanInterface
+metadata:
+  name: provisioning-vxlaninterface-vxlan0-leaf2
+  labels:
+    target: leaf2
+spec:
+  tunnel-interface-name: vxlan0
+  vxlan-interface:
+  - index: 0
+    type: bridged
+    ingress:
+      vni: 1
+    egress:
+      source-ip: use-system-ipv4-address

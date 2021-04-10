@@ -3,14 +3,10 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - vxlaninterface-vxlan0-leaf1.yaml
+- subinterface-e1-50-leaf1.yaml
 - subinterface-lag1-leaf1.yaml
 - subinterface-lag2-leaf1.yaml
-- subinterface-e1-50-leaf1.yaml
 - subinterface-irb0-leaf1.yaml
-- network-instance-201-leaf1.yaml
-- network-instance-protocol-bgpvpn201-leaf1.yaml
-- network-instance-protocol-bgpevpn201-leaf1.yaml
-- network-instance-protocol-linux201-leaf1.yaml
 - network-instance-202-leaf1.yaml
 - network-instance-protocol-bgpvpn202-leaf1.yaml
 - network-instance-protocol-bgpevpn202-leaf1.yaml
@@ -19,15 +15,15 @@ resources:
 - network-instance-protocol-bgpvpn205-leaf1.yaml
 - network-instance-protocol-bgpevpn205-leaf1.yaml
 - network-instance-protocol-linux205-leaf1.yaml
+- network-instance-201-leaf1.yaml
+- network-instance-protocol-bgpvpn201-leaf1.yaml
+- network-instance-protocol-bgpevpn201-leaf1.yaml
+- network-instance-protocol-linux201-leaf1.yaml
 - vxlaninterface-vxlan0-leaf2.yaml
-- subinterface-lag1-leaf2.yaml
 - subinterface-lag2-leaf2.yaml
 - subinterface-e1-50-leaf2.yaml
+- subinterface-lag1-leaf2.yaml
 - subinterface-irb0-leaf2.yaml
-- network-instance-205-leaf2.yaml
-- network-instance-protocol-bgpvpn205-leaf2.yaml
-- network-instance-protocol-bgpevpn205-leaf2.yaml
-- network-instance-protocol-linux205-leaf2.yaml
 - network-instance-201-leaf2.yaml
 - network-instance-protocol-bgpvpn201-leaf2.yaml
 - network-instance-protocol-bgpevpn201-leaf2.yaml
@@ -36,3 +32,7 @@ resources:
 - network-instance-protocol-bgpvpn203-leaf2.yaml
 - network-instance-protocol-bgpevpn203-leaf2.yaml
 - network-instance-protocol-linux203-leaf2.yaml
+- network-instance-205-leaf2.yaml
+- network-instance-protocol-bgpvpn205-leaf2.yaml
+- network-instance-protocol-bgpevpn205-leaf2.yaml
+- network-instance-protocol-linux205-leaf2.yaml

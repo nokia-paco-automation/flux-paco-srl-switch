@@ -7,10 +7,10 @@ metadata:
     target: leaf2
 spec:
   network-instance:
-  - name: infrastructuremacvrfitfce40
+  - name: infrastructure-macvrf-itfce-40
     type: mac-vrf
     admin-state: enable
-    description: paco-infrastructuremacvrfitfce40
+    description: paco-infrastructure-macvrf-itfce-40
     interface:
     - name: lag1.40
     - name: lag2.40
