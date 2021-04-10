@@ -11,4 +11,4 @@ resources:
 # - ../workload-multus-sba
 # - ../workload-multus-internet
 - ../workload-provisioning
-# - ../workload-infrastructure
+- ../workload-infrastructure
