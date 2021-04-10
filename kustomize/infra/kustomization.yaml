@@ -3,15 +3,15 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - interface-system.yaml
-# - tunnel-interface-vxlan0.yaml
-# - routing-policy.yaml
-# - interface-isl-leaf2.yaml
-# - subinterface-isl-e1-49-leaf2.yaml
-# - subinterface-system0-leaf2.yaml
-# - network-instance-default-leaf2.yaml
-# - protocols-bgp-defaultleaf2.yaml
-# - interface-isl-leaf1.yaml
-# - subinterface-isl-e1-49-leaf1.yaml
-# - subinterface-system0-leaf1.yaml
-# - network-instance-default-leaf1.yaml
-# - protocols-bgp-defaultleaf1.yaml
+- tunnel-interface-vxlan0.yaml
+- routing-policy.yaml
+- interface-isl-leaf2.yaml
+- subinterface-isl-e1-49-leaf2.yaml
+- subinterface-system0-leaf2.yaml
+- network-instance-default-leaf2.yaml
+- protocols-bgp-defaultleaf2.yaml
+- interface-isl-leaf1.yaml
+- subinterface-isl-e1-49-leaf1.yaml
+- subinterface-system0-leaf1.yaml
+- network-instance-default-leaf1.yaml
+- protocols-bgp-defaultleaf1.yaml
