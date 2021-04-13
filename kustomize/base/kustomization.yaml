@@ -9,6 +9,6 @@ resources:
 # - ../workload-multus-internal
 # - ../workload-multus-external
 # - ../workload-multus-sba
-# - ../workload-multus-internet
+- ../workload-multus-internet
 - ../workload-provisioning
 - ../workload-infrastructure
